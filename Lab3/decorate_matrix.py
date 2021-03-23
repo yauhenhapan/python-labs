@@ -17,7 +17,7 @@ def enter_value():
 
 def print_matrix(dimension):
     array_result = np.ones((dimension, dimension))
-    array_result[1: -1, 1: -1] = 0
+    array_result[1: dimension-1, 1: dimension-1] = 0
     return array_result
 
 
